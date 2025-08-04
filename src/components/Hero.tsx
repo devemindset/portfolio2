@@ -49,7 +49,7 @@ const Hero: FC = () => {
                 
                     sequence={
                         [
-                            " freelancer",1000,"",400
+                            "a freelancer",1000,"",400
                         ]
                     }
                     wrapper='span'
