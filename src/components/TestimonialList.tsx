@@ -50,7 +50,7 @@ const TestimonialList: FC = () => {
     }, []);
 
     return (
-        <section className="relative overflow-hidden bg-[var(--background-element-2)]/30 py-10">
+        <section className="relative overflow-hidden bg-[var(--background-element-2)]/30 py-10" id='testimonial'>
             <div className=' text-center'>
                 <motion.h2 className='text-center py-5 my-5 text-3xl sm:py-10 font-bold sm:text-4xl '
                 initial= {{ opacity:0, y: 40 }}

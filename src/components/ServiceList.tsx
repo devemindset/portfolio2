@@ -1,63 +1,63 @@
 "use client"
 import type { FC } from 'react';
 import Service from './Service';
-import OkIcon from '../ui/OkIcon';
 import {motion} from 'framer-motion'
+import OkIcon from './ui/OkIcon';
 
 const serviceList = [
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
     {
         icon : <OkIcon className='w-10 h-10 text-[var(--background-element-3)] bg-[var(--text-span)] rounded-full' />,
         title : "Lorem ipsum",
         description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, doloremque.",
-        path : "/",
+        path : "/service",
     },
 ]
 
 const ServiceList: FC = () => {
         return (
-            <section className='my-5 sm:my-20'>
+            <section className='my-5 sm:my-20' id='service'>
                 <motion.div className=' text-center'
    
                 >

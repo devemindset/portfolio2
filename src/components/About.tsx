@@ -9,7 +9,7 @@ const skills = [
 ]
 const About: FC = () => {
         return (
-            <section className='bg-[var(--background)] my-5 sm:my-20'>
+            <section className='bg-[var(--background)] my-5 sm:my-20' id='about'>
                 <motion.h2 className='text-center py-5 my-5  text-3xl sm:py-10 font-bold sm:text-4xl '
                 initial= {{ opacity:0, y: 40 }}
             

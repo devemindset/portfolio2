@@ -1,7 +1,8 @@
 "use client"
 import type { FC } from 'react';
-import OkIcon from '../ui/OkIcon';
+
 import {motion} from "framer-motion"
+import OkIcon from './ui/OkIcon';
 
 
 const List: FC = () => {

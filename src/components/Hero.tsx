@@ -10,7 +10,7 @@ const Hero: FC = () => {
             <>
 
             
-            <section className='relative flex items-center justify-center  w-screen h-screen'>
+            <section className='relative flex items-center justify-center  w-screen h-screen' id="hero">
                 <motion.div className="absolute inset-0 bg-cover bg-center"
                 initial= {{ opacity:0, y: 40 }}
                 animate = {{opacity : 1, y: 0}}

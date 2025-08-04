@@ -2,11 +2,11 @@
 import { Menu, X } from 'lucide-react';
 import { useEffect, useState, type FC } from 'react';
 
-const sections = ['hero','products', 'contact'];
+const sections = ['home', 'service', 'contact'];
 
 const Header: FC = () => {
     const [open,setOpen] = useState(false);
-    const [activeSection, setActiveSection] = useState<string>('hero');
+    const [activeSection, setActiveSection] = useState<string>('home');
 
     useEffect(() => {
     const handleObserver = (entries: IntersectionObserverEntry[]) => {
@@ -45,7 +45,7 @@ const Header: FC = () => {
         {sections.map((section) => (
           <a
             key={section}
-            href={section === "hero" ? "/" : `#${section}`}
+            href={section === "home" ? "/" : `#${section}`}
             className={linkClass(section)}
           >
             {section.charAt(0).toUpperCase() + section.slice(1)}
@@ -64,7 +64,8 @@ const Header: FC = () => {
           {sections.map((section) => (
             <a
               key={section}
-            href={section === "hero" ? "/" : `#${section}`}
+              href={section === "home" ? "/" : `#${section}`}
+
               className={`block ${linkClass(section)}`}
               onClick={() => setOpen(false)} // Close menu after click
             >

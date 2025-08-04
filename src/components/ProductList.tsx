@@ -7,33 +7,33 @@ const productList = [
     {
     imageSrc : "/product1.jpg",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt.",
-    path : "/"
+    path : "/product"
     },
     {
     imageSrc : "/product2.jpg",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt.",
-    path : "/"
+    path : "/product"
     },
     {
     imageSrc : "/hero-bg.jpg",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt.",
-    path : "/"
+    path : "/product"
     },
     {
     imageSrc : "/hero-bg.jpg",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt.",
-    path : "/"
+    path : "/product"
     },
     {
     imageSrc : "/hero-bg.jpg",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deserunt.",
-    path : "/"
+    path : "/product"
     },
 ]
 
 const ProductList: FC = () => {
         return (
-            <section className='my-5 sm:my-20 py-10' >
+            <section className='my-5 sm:my-20 py-10' id='products' >
                 <div className=' text-center'>
                     <motion.h2 className='text-center py-5 my-5  text-3xl sm:py-10 font-bold sm:text-4xl '
                     initial= {{ opacity:0, y: 40 }}
